@@ -1,0 +1,34 @@
+update this file to the 8AM to 5PM
+
+C:\Windows\System32\drivers\etc\hosts
+
+#####################################
+
+use the datetime module to check the time 
+and find the time to block website or not
+
+in condtion compare all the value to datetime object so use
+conver to datetime object 
+
+dt(.......)
+
+############################################################
+
+example : 
+
+if dt(dt.now().year, dt.now().month, dt.now().day,7) < dt.now() < 
+dt(dt.now().year,dt.now().month, dt.now().day,17):
+
+
+######################################################################
+
+if the file is exist and the list of the website bloack is present in file and the time conadtion is false the we are remove the list of the file remove
+
+file.truncate() method remove the copy content of the file
+
+file.seek() method is used to point the pointer to start of the file
+
+
+####################################################################################################
+
+and last we are create the .pyw file and execute when double click
